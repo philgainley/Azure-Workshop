@@ -1,0 +1,48 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "deploymentId": {
+      "value": ""
+    },
+    "cmMsDeployPackageUrl": {
+      "value": "https://pgsitecorestorage.blob.core.windows.net/8-2-5/Sitecore%208.2%20rev.%20170728_cm.scwdp.zip?st=2017-09-05T15%3A43%3A00Z&se=2050-09-06T15%3A43%3A00Z&sp=rl&sv=2016-05-31&sr=c&sig=8Cp2PlkEF1RK31KGYh%2F9f4eSKQSOiFwDLM7vj5%2FaEJw%3D"
+    },
+    "cdMsDeployPackageUrl": {
+      "value": "https://pgsitecorestorage.blob.core.windows.net/8-2-5/Sitecore%208.2%20rev.%20170728_cd.scwdp.zip?st=2017-09-05T15%3A43%3A00Z&se=2050-09-06T15%3A43%3A00Z&sp=rl&sv=2016-05-31&sr=c&sig=8Cp2PlkEF1RK31KGYh%2F9f4eSKQSOiFwDLM7vj5%2FaEJw%3D"
+    },
+    "prcMsDeployPackageUrl": {
+      "value": "https://pgsitecorestorage.blob.core.windows.net/8-2-5/Sitecore%208.2%20rev.%20170728_prc.scwdp.zip?st=2017-09-05T15%3A43%3A00Z&se=2050-09-06T15%3A43%3A00Z&sp=rl&sv=2016-05-31&sr=c&sig=8Cp2PlkEF1RK31KGYh%2F9f4eSKQSOiFwDLM7vj5%2FaEJw%3D"
+    },
+    "repMsDeployPackageUrl": {
+      "value": "https://pgsitecorestorage.blob.core.windows.net/8-2-5/Sitecore%208.2%20rev.%20170728_rep.scwdp.zip?st=2017-09-05T15%3A43%3A00Z&se=2050-09-06T15%3A43%3A00Z&sp=rl&sv=2016-05-31&sr=c&sig=8Cp2PlkEF1RK31KGYh%2F9f4eSKQSOiFwDLM7vj5%2FaEJw%3D"
+    },
+    "sqlServerLogin": {
+      "value": "a"
+    },
+    "sqlServerPassword": {
+      "value": "a"
+    },
+    "sitecoreAdminPassword": {
+      "value": "Sitecoredemo"
+    },
+    "repAuthenticationApiKey": {
+      "value": "4e152d3b-61c3-47a8-892b-0dafa9b75517"
+    },
+    "analyticsMongoDbConnectionString": {
+      "value": "mongodb://philgainley:philgainleya@ds034797.mlab.com:34797/analytics"
+    },
+    "trackingLiveMongoDbConnectionString": {
+      "value": "mongodb://philgainley:philgainleya@ds032887.mlab.com:32887/tracking_live"
+    },
+    "trackingHistoryMongoDbConnectionString": {
+      "value": "mongodb://philgainley:philgainleya@ds034797.mlab.com:34797/tracking_history"
+    },
+    "trackingContactMongoDbConnectionString": {
+      "value": "mongodb://philgainley:philgainleya@ds034797.mlab.com:34797/tracking_contactxx``"
+    },
+    "licenseXml": {
+      "value": ""
+    }
+  }
+}
