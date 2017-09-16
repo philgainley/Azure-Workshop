@@ -1,0 +1,32 @@
+This module provides 2 immediately usable interfaces 
+The "PowerShell Console" available from the "Sitecore"
+menu and the "PowerShell ISE" available from the 
+"Developer Tools" sub-menu as well as Reports 
+in the Sitecore -> Reporting Tools menu.
+
+--------------------------------------------------------
+BEFORE UPGRADING THE MODULE from previous version, 
+please back-up your script library!
+
+After you upgrade make sure to clean your browser cache!
+--------------------------------------------------------
+
+
+
+PowerShell ISE comes with tutorial scripts and
+Script Library for you to experiment with. Enjoy!
+
+You can find a fairly detailed release notes here:
+http://bit.ly/speReleaseNotes
+
+Please report any problems in our issue tracker:
+http://bit.ly/ScPsIss
+
+Thank you for using Sitecore PowerShell Extensions.
+
+Copyright (c) 2010-2017 Adam Najmanowicz
+Copyright (c) 2013-2017 Michael West
+
+https://sitecorepowershell.com/
+http://blog.najmanowicz.com/
+http://michaellwest.blogspot.com/
